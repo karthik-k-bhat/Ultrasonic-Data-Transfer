@@ -28,7 +28,7 @@ void send(String msg)
    while(pos<sz)
    {
       ch = msg.charAt(pos);
-      //Serial.print((char)ch);
+      Serial.print((char)ch);
       tone(3,40000);
       delay(10);
       noTone(3);
@@ -41,15 +41,15 @@ void send(String msg)
          {
             tone(3,40000);
             delay(2);
-            Serial.print(1);
-            Serial.print('\n');
+            //Serial.print(1);
+            //Serial.print('\n');
          }
          else
          {
             tone(3,40000);
             delay(4);
-            Serial.print(0);
-            Serial.print('\n');
+            //Serial.print(0);
+            //Serial.print('\n');
          }
          noTone(3);
          delay(11);

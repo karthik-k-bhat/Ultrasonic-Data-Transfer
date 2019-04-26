@@ -40,13 +40,13 @@ void loop()
          if(bits1 > 250 && bits1 < 600) b = 0;
          if(bits1 > 75 && bits1 < 250) b = 1;
          if(b) bitSet(CH,7-pos); else bitClear(CH,7-pos);
-         Serial.print(b);
-         Serial.print('\n');
+         //Serial.print(b);
+         //Serial.print('\n');
          //Serial.print(b);
          pos++;
          if(pos == 8)
          {
-            //Serial.print((char)CH);
+            Serial.print((char)CH);
             pos = 0;
             capture = false;
          }
