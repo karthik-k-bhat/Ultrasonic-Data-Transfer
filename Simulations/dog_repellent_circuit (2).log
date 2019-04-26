@@ -1,11 +1,11 @@
-Circuit: * D:\Tech\Mini Project\Simulations\dog_repellent_circuit (2).asc
+Circuit: * D:\Tech\Mini Project\ultrasonic_data_transfer\Simulations\dog_repellent_circuit (2).asc
 
 Limiting rise time of source v2 to 0.005
 Limiting fall time of source v2 to 0.005
 Direct Newton iteration for .op point succeeded.
 
-Date: Thu Feb 28 23:30:38 2019
-Total elapsed time: 0.431 seconds.
+Date: Fri Apr 26 15:58:07 2019
+Total elapsed time: 0.205 seconds.
 
 tnom = 27
 temp = 27
@@ -18,6 +18,6 @@ rejected = 4101
 matrix size = 14
 fillins = 2
 solver = Normal
-Matrix Compiler1: 912 bytes object code size  0.5/0.3/[0.3]
-Matrix Compiler2: off  [0.3]/0.4/0.4
+Matrix Compiler1:      52 opcodes  0.1/[0.1]/0.1
+Matrix Compiler2:     100 opcodes  0.1/[0.1]/0.2
 
