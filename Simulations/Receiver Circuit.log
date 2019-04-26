@@ -1,0 +1,54 @@
+Circuit: * D:\Tech\Mini Project\ultrasonic_data_transfer\Simulations\Receiver Circuit.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 5.02168e-006
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 0.0177557%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+vernier = 0.25
+Source stepping failed
+
+Pseudo transient terminated at 101.424 s, solution accepted ready or not!
+
+Date: Fri Apr 26 12:28:58 2019
+Total elapsed time: 0.162 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 13382
+traniter = 5067
+tranpoints = 1976
+accept = 1659
+rejected = 336
+matrix size = 11
+fillins = 2
+solver = Normal
+Matrix Compiler1: 450 bytes object code size  0.1/0.1/[0.0]
+Matrix Compiler2: off  [0.1]/0.1/0.1
+
